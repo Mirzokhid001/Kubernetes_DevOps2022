@@ -1,0 +1,9 @@
+---
+- name: use unxnn.chrony role
+  hosts: ftptest
+  user: ansible
+  become: true
+
+  roles:
+    - unxnn.chrony
+

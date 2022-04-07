@@ -1,0 +1,7 @@
+- hosts: jenkins
+  become: yes
+  vars:
+    java_ppackages:
+      - openjdk-1.8.0-jdk
+  roles:
+    - ansible-role-jenkins

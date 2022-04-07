@@ -1,0 +1,7 @@
+---
+- name: play autofs role
+  hosts: mail
+  become: yes
+  remote_user: ansible
+  roles:
+    - autofs

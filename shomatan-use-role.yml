@@ -1,0 +1,7 @@
+---
+- name: use shomatan.vsftpd role
+  hosts: ftptest
+  user: ansible
+  become: true
+  roles: 
+  - shomatan.vsftpd  

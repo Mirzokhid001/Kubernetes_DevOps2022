@@ -1,0 +1,7 @@
+---
+- name:  use team4  role
+  hosts: ftp
+  user: ansible
+  become: true
+  roles:
+  -  team4.repo-epel

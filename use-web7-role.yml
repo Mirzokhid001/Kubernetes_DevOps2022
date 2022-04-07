@@ -1,0 +1,7 @@
+---
+- name: use  ansible-role-nginx role
+  hosts: webserver
+  become: true
+
+  roles:
+    - ansible-role-nginx
